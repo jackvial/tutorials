@@ -156,7 +156,7 @@ def normalize(tensor):
 
 
 ######################################################################
-# Let’s apply encode the waveform.
+# Let’s apply an encoding to the waveform.
 # 
 
 transformed = torchaudio.transforms.MuLawEncoding()(waveform)
